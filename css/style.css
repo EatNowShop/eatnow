@@ -1,0 +1,638 @@
+﻿a{text-decoration:none;}
+ol,ul{list-style:none;margin:0;padding:0;}
+.float-rt{float:right;}
+.clear{clear:both;}
+body{
+	font-family:'Maven Pro';
+	background:#ffffff;
+	font-size:100%;
+}
+.wrap{
+	margin:0 auto;
+	width:100%;
+}
+.clear{
+	overflow:auto;
+}
+/* start header */
+.top_bg{
+	background-color:white;
+	width:1300px;
+	margin:auto;
+}
+
+.heading{
+	padding:0 4%;
+}
+
+.logo{
+	float:left;
+	margin:5px 0px;
+}
+.myaccount{
+	position: relative;
+	display: inline-block;
+}
+.accountbtn{
+	background-color: #635f88;
+	color: white;
+	padding: 12px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.accountbtn:hover, .accountbtn:focus{
+	background-color:#ACB7EF ;
+}
+.myaccount-dropdown{
+	display: none;
+	position: absolute;
+	background-color: #EBE7DF;
+	min-width: 230px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.myaccount-dropdown a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.myaccount:hover .myaccount-dropdown{
+	display: block;
+}
+/* Login and Register header*/
+.login_header{
+	
+	border-right: 1px solid rgb(60,60,60);
+	padding: 5px 15px;
+	float:right;
+}
+.login_header ul li{
+	display:inline-block;
+}
+.login_header li a{
+	font-family:'Maven Pro';
+	font-size: 1.4em;
+	display: block;
+	padding: 5px 10px;
+	color:#777777;
+	text-transform:uppercase;
+	-webkit-text-stroke:0.5px;
+}
+/* Register Page*/
+.register_bg{
+
+margin:auto;
+width:100%;
+
+}
+.register_form{
+	background-color: rgba(214, 214, 214, 0.07);
+	overflow: auto;
+}
+.register {
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	margin-bottom: 28px;
+}
+.register_form form input[type="Submit"]{
+	background-color: #6E7BB6; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+
+}
+.register_form form input[type="Submit"]:hover {
+	color: #000000;
+
+}
+/* Login Page*/
+.login_bg{
+
+margin:0 auto;
+width:100%;
+	background-image:url("login_bg1.jpg");
+
+ 
+
+}
+
+.login_bg form h2{
+	font-size:54px;
+}
+.login_bg form input[type=text]{
+
+font-style:italic; 
+font-size:1em;
+
+
+}
+.login_bg form input[type=password]{
+
+font-style:italic; 
+font-size:1em;
+-webkit-text-stroke: 0.2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+
+}
+.login_bg form input[type=submit]{
+
+ float: right;
+ font-size:25px;
+ width:400px;
+ background:#ecebe6;
+ 
+
+}
+.login_block{
+	display: block;
+	background-image:url("login_bg.jpg");
+	box-shadow: #BEC1D1;
+	width: 500px;
+	border: 3px outset #2f2e7b;
+	border-radius: 8px;
+
+}
+
+/*start menu*/
+.header {
+	overflow: visible;
+	width: 100%;
+}
+
+.menu{
+	float: left;
+	margin:auto;
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li:nth-child(6){
+	border-right: 1px solid rgb(226, 226, 226);
+}
+.menu ul li a{
+	display: block;
+	color: #2f2e7b;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	-webkit-text-stroke: 0.2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border:1px solid #2f2e7b ;
+	padding:26px 70px;
+	
+}
+.menu ul li.active a{
+	color:#57C5A0;
+}
+.menu ul li a:hover{
+	 color:#57C5A0;
+ }
+
+/*start mainbackground*/
+.mainbackground{
+	background-color:#ffffff;
+	overflow:auto;
+	padding-bottom:6%;
+	width:1300px;
+	margin:auto;
+}
+
+.topmain{
+	position:relative;
+
+}
+.image-container {
+	width: 85%;
+	height: 500px;
+	position: relative;
+	
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:486px;
+	box-shadow: -5px 4px 50px -21px #000;
+	text-align:left;
+	padding:2em;
+	margin-bottom:2em;
+}
+.image-container img {
+	width: 100%;
+	height: 100%;
+}
+.image-container span.buy {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.buy{
+	display:block;
+	border:none;
+	font-size:2.1em;
+	padding: 5px 5px;
+	background:#ACB7EF ;
+	float:right;
+	text-transform:uppercase;
+	margin-left:5px;
+	margin-top:200px;
+	-webkit-text-stroke: 0.2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+}
+
+.buy a{
+	font-family:Verdana;
+	color:#ffffff;
+}
+.buy a:hover{
+	color:#000000;
+}
+/* The container <div> - needed to position the dropdown content */
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	font-size: 12px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 10px 12px;
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.menu ul li.dropdown:hover .dropdown-content {
+	display: block;
+
+}
+/*slides*/
+.slide_bg{
+	width:100%;
+	margin:auto;
+	height:300px;
+	padding-bottom:50px;
+}
+
+.slide_container1 {
+
+	width:50%;
+	  float:left;
+}
+.slide_container2 {
+
+  width:50%;
+float:right;
+
+}
+.slideshow1{
+	width:100%;
+	
+}
+
+.slides1 {
+    
+	 margin-left:130px;
+
+}
+.slides2 {
+
+	margin-left:100px;
+}
+/* start grid*/
+.productbackground{
+	background-color:#ffffff;
+	overflow:auto;
+	padding-bottom:6%;
+	width:1300px;
+	margin:auto;
+	padding-top: 6%;
+}
+.grid1{
+	text-align:center;
+	display:block;
+	
+}
+.block1{
+	float:left;
+	width:33;
+	margin-left:4.3333%;
+	background:#ffffff;
+	position:relative;
+	text-align:center;
+}
+.block1:first-child{
+	margin-left:0;
+	text-align:center;
+}
+.block1 a{
+	display:block;
+}
+.block1 a:hover{
+	color:#000000;
+	
+}
+.block1 img{
+	padding:8% 0;
+}
+.block1 h3{
+	text-align:right;
+	border: 1px solid #EBEBEB;
+	padding: 10px 15px;
+	font-size: 1.2em;
+	color: #000000;
+	-webkit-text-stroke: 0.2px;
+	text-shadow: 0 1px 0 #ffffff;
+	text-transform: capitalize;
+}
+.price{
+	background: #BEC1D1 ;
+	color: #ffffff;
+	font-size: 0.8725em;
+	padding: 20px 12px;
+	position: absolute;
+	bottom: 0px;
+	left: 4px;
+}
+.gridbackground{
+	background-color:#EBE7DF;
+	width:1300px;
+	margin:auto;
+	overflow: auto;
+}
+
+.main{
+	padding:4%;
+	
+}
+.gridtitle{
+	margin:3% 0;
+}
+.gridtitle:first-child{
+	margin-top:0;
+}
+.gridtitle h2{
+	float:left;
+	text-transform:capitalize;
+	color:#242424;
+	font-size:2.0em;
+	line-height:1.8em;
+}
+
+/* start footer*/
+.footerbackground{
+	
+	width:100%;
+	background-color:#635f88;
+	overflow:auto;
+	margin:auto;
+}
+.newsletter{
+	display:block;
+	border:none;
+	float:left;
+	width:30%;
+	margin:auto;
+	padding:50px;
+}
+.newsletter form input[type=text]{
+ line-height:30px;
+font-style:italic;
+background:#000000;
+border:none; 
+font-size:1em;
+padding:10px;
+margin-left:15%;
+
+}
+.newsletter form input[type=submit]{
+ line-height:30px;
+font-style:italic;
+background:#000000;
+border:1px solid; 
+font-size:1em;
+padding:1px;
+color:#ffffff;
+width:200px;
+margin-left:15%;
+}
+.footericon{
+	width:50%;
+	float:right;
+	padding:50px;
+	
+
+}
+.footericon ul{
+	margin-right:15%;
+}
+.footericon ul li a{
+	
+	float:right;
+		
+}
+
+.footerbottom{
+	overflow:auto;
+	background-color:#393d50 ;
+	padding:0.1%;
+	margin:auto;
+	
+	
+}
+.link{
+	float:left;
+}
+.link p {
+	font-size:1.0em;
+	color:#000000;
+}
+
+/*Contact */
+.name {
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	margin-bottom: 28px;
+}
+.email{
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	margin-bottom: 28px;
+}
+.phone{
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	margin-bottom: 28px;
+}
+.contact_right form input[type="Submit"]{
+	background-color: #6E7BB6; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+
+}
+
+/*Blog*/
+.blog_bg{
+width: 1300px;
+	margin: auto;
+}
+.blog_right{
+
+	 float:right;
+	 min-height:430px;
+	 background:#EBE7DF;
+	 margin-right:3%;
+	 box-shadow: -5px 4px 50px -21px #000;
+	 margin-top: 10%;
+	 margin-bottom: 10%;
+
+
+
+ }
+.blog_right1{
+
+	float:right;
+	min-height:430px;
+	background:#EBE7DF;
+	margin-right:3%;
+	box-shadow: -5px 4px 50px -21px #000;
+	margin-bottom: 10%;
+
+
+
+}
+.blog_left{
+	width:95%;
+	float:left;
+	min-height:430px;
+	background:#BEC1D1;
+	box-shadow: -5px 4px 50px -21px #000;
+	margin-bottom: 3%;
+	margin-right:3%;
+
+
+}
+.blog_left1{
+	width:95%;
+	float:left;
+	min-height:430px;
+	background:#BEC1D1;
+	box-shadow: -5px 4px 50px -21px #000;
+	margin-top: 3%;
+	margin-right:3%;
+
+
+}
+
+/*Detail Page*/
+.detail_bg{
+	width: 1300px;
+	margin: 0 auto;
+	background-color: white;
+	overflow: auto;
+}
+.detail_wrap{
+	margin: 16px 20px;
+	width: 100%;
+}
+.detail_left{
+	width:60%;
+	display: block;
+	float:left;
+	margin: 16px 20px;
+
+}
+.image_block{
+	width: 40%;
+	display:block;
+	float:left;
+	margin-left: 20px;
+
+
+}
+.product_detail{
+	float: left;
+	margin-left: 60px;
+	width: 48%;
+}
+.product_detail h1{
+	  font-size: 30px;
+	  color: black;
+	  font-family:"Maven Pro";
+}
+.product_detail h2{
+	font-size: 25px;
+	color: #393d50;
+	font-family:"Maven Pro";
+}
+.cartbutton{
+	font-size:20px;
+	text-align:center;
+	width:150px;
+	height:40px;
+	display:inline-block;
+	border:1px solid black;
+	background-color:#000000;
+	line-height:40px;
+	margin:0;
+	color:white;
+	float:left;
+	-webkit-transition:.5s;
+	transition:.5s;
+	cursor:pointer;
+
+}
+.cartbutton:hover{
+	background-color: #1097b3;
+}
